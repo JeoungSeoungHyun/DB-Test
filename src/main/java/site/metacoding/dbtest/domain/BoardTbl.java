@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 @Data
 @EntityListeners(AuditingEntityListener.class)
 @Entity
-public class BoardTble {
+public class BoardTbl {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
